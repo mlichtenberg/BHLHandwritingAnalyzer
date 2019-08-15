@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:40:01.8763206-05:00",
+    "language": "eng",
+    "total_words": 25,
+    "total_candidates": 5,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Hymenoxys leptoclada",
+      "name": "Hymenoxys leptoclada",
+      "odds": 73971093922.02568,
+      "odds_details": {
+        "Name": {
+          "uniLen": {
+            "9": 2.171091427809083
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "xys": 17.51902518572205
+          },
+          "spLen": {
+            "10": 13.127639159348814
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "ada": 15.01630730204747
+          },
+          "PriorOdds": {
+            "true": 0.1
+          }
+        }
+      },
+      "start": 100,
+      "end": 120,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "46037606",
+          "matchedName": "Hymenoxys",
+          "matchedCanonical": "Hymenoxys",
+          "currentName": "Hymenoxys",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Hymenoxys",
+          "classificationRank": "kingdom|phylum|class|order|family|genus",
+          "classificationIDs": "45841433|45841434|45841435|45844422|45856707|46037606",
+          "matchType": "ExactPartialMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "46037606",
+            "matchedName": "Hymenoxys",
+            "matchedCanonical": "Hymenoxys",
+            "currentName": "Hymenoxys",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Hymenoxys",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "45841433|45841434|45841435|45844422|45856707|46037606",
+            "matchType": "ExactPartialMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "3150131",
+            "matchedName": "Hymenoxys Cass.",
+            "matchedCanonical": "Hymenoxys",
+            "currentName": "Hymenoxys Cass.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Hymenoxys",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "6|7707728|220|414|3065|3150131",
+            "matchType": "ExactPartialMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "950017",
+            "matchedName": "Hymenoxys",
+            "matchedCanonical": "Hymenoxys",
+            "currentName": "Hymenoxys",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Asterales|Asteraceae|Asteroideae|Heliantheae alliance|Helenieae|Tetraneurinae|Hymenoxys",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|subfamily|no rank|tribe|subtribe|genus",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596121|1042120|46248|1084160|757761|557770|757758|950017",
+            "matchType": "ExactPartialMatch"
+          }
+        ],
+        "dataSourcesNum": 20,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

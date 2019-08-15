@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:37:13.4181306-05:00",
+    "language": "eng",
+    "total_words": 75,
+    "total_candidates": 15,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "PossibleBinomial",
+      "verbatim": "Penstemon eatoni",
+      "name": "Penstemon eatoni",
+      "odds": 316012.93482230103,
+      "odds_details": {
+        "Name": {
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "mon": 10.010871534698316
+          },
+          "spLen": {
+            "6": 2.296153847821055
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "oni": 112.62230476535605
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "9": 2.171091427809083
+          },
+          "uniDict": {
+            "GreyGenus": 1.4684399638974754
+          }
+        }
+      },
+      "start": 387,
+      "end": 403,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 169,
+          "dataSourceTitle": "uBio NameBank",
+          "taxonId": "95075779",
+          "matchedName": "Penstemon eatoni A. Gray",
+          "matchedCanonical": "Penstemon eatoni",
+          "currentName": "Penstemon eatoni A. Gray",
+          "classificationPath": "|Penstemon eatoni",
+          "classificationRank": "kingdom|",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "dataSourcesNum": 3,
+        "dataSourceQuality": "Unknown",
+        "retries": 1
+      }
+    }
+  ]
+}

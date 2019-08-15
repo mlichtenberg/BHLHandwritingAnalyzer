@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:40:39.3261265-05:00",
+    "language": "eng",
+    "total_words": 71,
+    "total_candidates": 13,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Machaeranthera venusta",
+      "name": "Machaeranthera venusta",
+      "odds": 1793159119765.0312,
+      "odds_details": {
+        "Name": {
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "sta": 75.08153651023736
+          },
+          "spLen": {
+            "7": 4.425451988126818
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "14": 15.01630730204747
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "era": 36.428449195707756
+          }
+        }
+      },
+      "start": 395,
+      "end": 417,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "1d48249be8675e10cdfd0a83cfc97589",
+          "matchedName": "Machaeranthera venusta (M. E. Jones) Cronq. \u0026 Keck",
+          "matchedCanonical": "Machaeranthera venusta",
+          "currentName": "Xylorhiza venusta (M.E. Jones) Heller",
+          "isSynonym": true,
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Xylorhiza|Xylorhiza venusta",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45844422|45856707|46037852|096ce0e0b2f50ff2eff93045811b2dda",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "1d48249be8675e10cdfd0a83cfc97589",
+            "matchedName": "Machaeranthera venusta (M. E. Jones) Cronq. \u0026 Keck",
+            "matchedCanonical": "Machaeranthera venusta",
+            "currentName": "Xylorhiza venusta (M.E. Jones) Heller",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Xylorhiza|Xylorhiza venusta",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45844422|45856707|46037852|096ce0e0b2f50ff2eff93045811b2dda",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "3120495",
+            "matchedName": "Machaeranthera venusta (M.E.Jones) Cronquist \u0026 D.D.Keck Cronquist \u0026 D.D.Keck (M.E.Jones)",
+            "matchedCanonical": "Machaeranthera venusta",
+            "currentName": "Xylorhiza venusta (M.E.Jones) A.Heller A.Heller (M.E.Jones)",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Xylorhiza|Xylorhiza venusta",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|414|3065|3120485|5396055",
+            "matchType": "ExactCanonicalMatch"
+          }
+        ],
+        "dataSourcesNum": 13,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

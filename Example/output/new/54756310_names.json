@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:36:56.2539393-05:00",
+    "language": "eng",
+    "total_words": 52,
+    "total_candidates": 16,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Penstemon pachyphyllus",
+      "name": "Penstemon pachyphyllus",
+      "odds": 6765300.815252422,
+      "odds_details": {
+        "Name": {
+          "uniEnd3": {
+            "mon": 10.010871534698316
+          },
+          "spLen": {
+            "12": 21.06718218536196
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "lus": 262.78537778583075
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "9": 2.171091427809083
+          },
+          "uniDict": {
+            "GreyGenus": 1.4684399638974754
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          }
+        }
+      },
+      "start": 289,
+      "end": 311,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "7d2eda4584dd07d81cd494568cee1065",
+          "matchedName": "Penstemon pachyphyllus A. Gray ex Rydb.",
+          "matchedCanonical": "Penstemon pachyphyllus",
+          "currentName": "Penstemon pachyphyllus A. Gray ex Rydb.",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Plantaginaceae|Penstemon|Penstemon pachyphyllus",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45841436|45846254|45973879|7d2eda4584dd07d81cd494568cee1065",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "7d2eda4584dd07d81cd494568cee1065",
+            "matchedName": "Penstemon pachyphyllus A. Gray ex Rydb.",
+            "matchedCanonical": "Penstemon pachyphyllus",
+            "currentName": "Penstemon pachyphyllus A. Gray ex Rydb.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Plantaginaceae|Penstemon|Penstemon pachyphyllus",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45841436|45846254|45973879|7d2eda4584dd07d81cd494568cee1065",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "8567994",
+            "matchedName": "Penstemon pachyphyllus A. Gray",
+            "matchedCanonical": "Penstemon pachyphyllus",
+            "currentName": "Penstemon pachyphyllus A. Gray ex Rydb.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Plantaginaceae|Penstemon|Penstemon pachyphyllus",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|408|2420|3171306|3171528",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "241195",
+            "matchedName": "Penstemon pachyphyllus",
+            "matchedCanonical": "Penstemon pachyphyllus",
+            "currentName": "Penstemon pachyphyllus",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Lamiales|Core|Plantaginaceae|Cheloneae|Penstemon|Penstemon pachyphyllus",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|no rank|family|tribe|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596112|23736|5263556|1041309|272511|759750|241195",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 17,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

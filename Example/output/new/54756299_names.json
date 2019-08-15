@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:40:21.4221782-05:00",
+    "language": "eng",
+    "total_words": 57,
+    "total_candidates": 14,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Enceliopsis mutans",
+      "name": "Enceliopsis mutans",
+      "odds": 14791188121.39198,
+      "odds_details": {
+        "Name": {
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "sis": 22.733020776710756
+          },
+          "spEnd3": {
+            "ans": 6.781558136408536
+          },
+          "spLen": {
+            "6": 2.296153847821055
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "11": 4.235368726218518
+          }
+        }
+      },
+      "start": 240,
+      "end": 258,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "eaac7591357789ab78d54288e66df916",
+          "matchedName": "Enceliopsis nutans (Eastw.) A. Nels.",
+          "matchedCanonical": "Enceliopsis nutans",
+          "currentName": "Encelia nutans Eastw.",
+          "isSynonym": true,
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Encelia|Encelia nutans",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45844422|45856707|46037442|fbc678ba0f0affb2640dc2f88e2db497",
+          "editDistance": 1,
+          "stemEditDistance": 1,
+          "matchType": "FuzzyCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "eaac7591357789ab78d54288e66df916",
+            "matchedName": "Enceliopsis nutans (Eastw.) A. Nels.",
+            "matchedCanonical": "Enceliopsis nutans",
+            "currentName": "Encelia nutans Eastw.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Encelia|Encelia nutans",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45844422|45856707|46037442|fbc678ba0f0affb2640dc2f88e2db497",
+            "editDistance": 1,
+            "stemEditDistance": 1,
+            "matchType": "FuzzyCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "3118749",
+            "matchedName": "Enceliopsis nutans (Eastw.) A.Nelson A.Nelson (Eastw.)",
+            "matchedCanonical": "Enceliopsis nutans",
+            "currentName": "Encelia nutans Eastw.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Asterales|Asteraceae|Encelia|Encelia nutans",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|414|3065|3118743|3118748",
+            "editDistance": 1,
+            "stemEditDistance": 1,
+            "matchType": "FuzzyCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "169654",
+            "matchedName": "Enceliopsis nutans",
+            "matchedCanonical": "Enceliopsis nutans",
+            "currentName": "Enceliopsis nutans",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Asterales|Asteraceae|Asteroideae|Heliantheae alliance|Heliantheae|Enceliopsis|Enceliopsis nutans",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|subfamily|no rank|tribe|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596121|1042120|46248|1084160|757761|557772|380853|169654",
+            "editDistance": 1,
+            "stemEditDistance": 1,
+            "matchType": "FuzzyCanonicalMatch"
+          }
+        ],
+        "dataSourcesNum": 17,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

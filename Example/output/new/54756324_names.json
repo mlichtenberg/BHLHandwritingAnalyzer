@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:32:42.5366937-05:00",
+    "language": "eng",
+    "total_words": 62,
+    "total_candidates": 15,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Uninomial",
+      "verbatim": "Gilia",
+      "name": "Gilia",
+      "odds": 5000.762916128274,
+      "odds_details": {
+        "Name": {
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "lia": 9.414986324299607
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "5": 0.3030356411856684
+          }
+        }
+      },
+      "start": 277,
+      "end": 282,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "45986690",
+          "matchedName": "Gilia",
+          "matchedCanonical": "Gilia",
+          "currentName": "Gilia",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ericales|Polemoniaceae|Gilia",
+          "classificationRank": "kingdom|phylum|class|order|family|genus",
+          "classificationIDs": "45841433|45841434|45841435|45844411|45848768|45986690",
+          "matchType": "ExactMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "45986690",
+            "matchedName": "Gilia",
+            "matchedCanonical": "Gilia",
+            "currentName": "Gilia",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ericales|Polemoniaceae|Gilia",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "45841433|45841434|45841435|45844411|45848768|45986690",
+            "matchType": "ExactMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "2264938",
+            "matchedName": "Gilia Pugh \u0026 Pages, 1995",
+            "matchedCanonical": "Gilia",
+            "currentName": "Gilia Pugh \u0026 Pages, 1995",
+            "classificationPath": "Animalia|Cnidaria|Hydrozoa|Siphonophorae|Diphyidae|Gilia",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "1|43|205|6180736|8188|2264938",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "884283",
+            "matchedName": "Gilia",
+            "matchedCanonical": "Gilia",
+            "currentName": "Gilia",
+            "classificationPath": "||Eukaryota|Opisthokonta|Holozoa|Metazoa|Eumetazoa|Cnidaria|Hydrozoa|Hydroidolina|Siphonophorae|Calycophorae|Diphyidae|Giliinae|Gilia",
+            "classificationRank": "no rank|no rank|domain|no rank|no rank|kingdom|no rank|phylum|class|subclass|order|suborder|family|subfamily|genus",
+            "classificationIDs": "805080|93302|304358|332573|5246131|691846|641038|641033|641030|444336|711116|149373|358894|5673061|884283",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 21,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

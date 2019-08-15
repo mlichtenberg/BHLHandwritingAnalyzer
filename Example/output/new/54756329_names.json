@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:31:15.7510549-05:00",
+    "language": "eng",
+    "total_words": 45,
+    "total_candidates": 10,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Uninomial",
+      "verbatim": "Berberis",
+      "name": "Berberis",
+      "odds": 76158.25464939173,
+      "odds_details": {
+        "Name": {
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "8": 1.467152054157978
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "ris": 29.615494956815844
+          }
+        }
+      },
+      "start": 256,
+      "end": 264,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "46035911",
+          "matchedName": "Berberis",
+          "matchedCanonical": "Berberis",
+          "currentName": "Berberis",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ranunculales|Berberidaceae|Berberis",
+          "classificationRank": "kingdom|phylum|class|order|family|genus",
+          "classificationIDs": "45841433|45841434|45841435|45850379|45850802|46035911",
+          "matchType": "ExactMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "46035911",
+            "matchedName": "Berberis",
+            "matchedCanonical": "Berberis",
+            "currentName": "Berberis",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ranunculales|Berberidaceae|Berberis",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "45841433|45841434|45841435|45850379|45850802|46035911",
+            "matchType": "ExactMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "3033893",
+            "matchedName": "Berberis L.",
+            "matchedCanonical": "Berberis",
+            "currentName": "Berberis L.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ranunculales|Berberidaceae|Berberis",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "6|7707728|220|399|6673|3033893",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "880484",
+            "matchedName": "Berberis",
+            "matchedCanonical": "Berberis",
+            "currentName": "Berberis",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae|||Ranunculales|Berberidaceae|Berberidoideae|Berberis",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|order|family|no rank|genus",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|431494|872975|297866|5479013|880484",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 24,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

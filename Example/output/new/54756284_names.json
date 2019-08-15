@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:44:42.8977397-05:00",
+    "language": "eng",
+    "total_words": 57,
+    "total_candidates": 13,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "PossibleBinomial",
+      "verbatim": "Saidlandia pinnatifida",
+      "name": "Saidlandia pinnatifida",
+      "odds": 88321.4149059585,
+      "odds_details": {
+        "Name": {
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "10": 3.1988876638791726
+          },
+          "uniDict": {
+            "NotInDictionary": 0.01045703851117512
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "dia": 3.1730887453731267
+          },
+          "spLen": {
+            "11": 26.660531560828144
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "ida": 202.72014857764088
+          }
+        }
+      },
+      "start": 314,
+      "end": 336,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "matchType": "NoMatch"
+        },
+        "retries": 1
+      }
+    }
+  ]
+}

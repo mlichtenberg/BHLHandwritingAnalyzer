@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:33:33.8815279-05:00",
+    "language": "eng",
+    "total_words": 27,
+    "total_candidates": 3,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Trinomial",
+      "verbatim": "Streptanthus cordatus\r\nnutt.",
+      "name": "Streptanthus cordatus nutt",
+      "odds": 344046797733812.6,
+      "odds_details": {
+        "Name": {
+          "uniEnd3": {
+            "hus": 17.230250045298064
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "12": 7.305230579374447
+          },
+          "spEnd3": {
+            "tus": 1023.6116144229026
+          },
+          "spLen": {
+            "8": 6.931302160594205
+          },
+          "ispLen": {
+            "4": 0.05289125210455401
+          },
+          "ispDict": {
+            "WhiteSpecies": 738.3017756840007
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          }
+        }
+      },
+      "start": 137,
+      "end": 165,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "0d35b09044fc56f326e297251f7a02fe",
+          "matchedName": "Streptanthus cordatus Nutt.",
+          "matchedCanonical": "Streptanthus cordatus",
+          "currentName": "Streptanthus cordatus Nutt.",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Streptanthus|Streptanthus cordatus",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45846124|45846125|45975878|0d35b09044fc56f326e297251f7a02fe",
+          "matchType": "ExactPartialMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "0d35b09044fc56f326e297251f7a02fe",
+            "matchedName": "Streptanthus cordatus Nutt.",
+            "matchedCanonical": "Streptanthus cordatus",
+            "currentName": "Streptanthus cordatus Nutt.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Streptanthus|Streptanthus cordatus",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45846124|45846125|45975878|0d35b09044fc56f326e297251f7a02fe",
+            "matchType": "ExactPartialMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "3041586",
+            "matchedName": "Streptanthus cordatus Nutt.",
+            "matchedCanonical": "Streptanthus cordatus",
+            "currentName": "Streptanthus cordatus Nutt.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Streptanthus|Streptanthus cordatus",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|7225535|3112|3041514|3041586",
+            "matchType": "ExactPartialMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "408204",
+            "matchedName": "Streptanthus cordatus",
+            "matchedCanonical": "Streptanthus cordatus",
+            "currentName": "Streptanthus cordatus",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Brassicales|Brassicaceae|Thelypodieae|Streptanthus|Streptanthus cordatus",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|tribe|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008296|565277|8844|309271|5232962|480054|408204",
+            "matchType": "ExactPartialMatch"
+          }
+        ],
+        "dataSourcesNum": 19,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

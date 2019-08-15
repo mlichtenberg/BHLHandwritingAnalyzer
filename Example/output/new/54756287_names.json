@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:43:50.8248652-05:00",
+    "language": "eng",
+    "total_words": 14,
+    "total_candidates": 3,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Cryptantha crassisepala",
+      "name": "Cryptantha crassisepala",
+      "odds": 1532502763613.3108,
+      "odds_details": {
+        "Name": {
+          "spLen": {
+            "12": 21.06718218536196
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "ala": 80.08697227758651
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "10": 3.1988876638791726
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "tha": 28.781255662257653
+          }
+        }
+      },
+      "start": 57,
+      "end": 80,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "19343f64ac7b4bcefb9a081c8ae5844c",
+          "matchedName": "Cryptantha crassisepala (Torr. \u0026 Gray) Greene",
+          "matchedCanonical": "Cryptantha crassisepala",
+          "currentName": "Cryptantha crassisepala (Torr. \u0026 Gray) Greene",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Cryptantha|Cryptantha crassisepala",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45856685|45856686|45920401|19343f64ac7b4bcefb9a081c8ae5844c",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "19343f64ac7b4bcefb9a081c8ae5844c",
+            "matchedName": "Cryptantha crassisepala (Torr. \u0026 Gray) Greene",
+            "matchedCanonical": "Cryptantha crassisepala",
+            "currentName": "Cryptantha crassisepala (Torr. \u0026 Gray) Greene",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Cryptantha|Cryptantha crassisepala",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45856685|45856686|45920401|19343f64ac7b4bcefb9a081c8ae5844c",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "2926222",
+            "matchedName": "Cryptantha crassisepala (Torr. \u0026 Gray) Greene Greene (Torr. \u0026 Gray)",
+            "matchedCanonical": "Cryptantha crassisepala",
+            "currentName": "Cryptantha crassisepala (Torr. \u0026 Gray) Greene Greene (Torr. \u0026 Gray)",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Cryptantha|Cryptantha crassisepala",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|7226464|2498|2926133|2926222",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "1046416",
+            "matchedName": "Cryptantha crassisepala",
+            "matchedCanonical": "Cryptantha crassisepala",
+            "currentName": "Cryptantha crassisepala",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Boraginales|Boraginaceae|Cynoglossoideae|Cynoglosseae|Amsinckiinae|Cryptantha|Cryptantha crassisepala",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|subfamily|tribe|subtribe|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596112|5261925|147029|6062534|6062557|6062558|375198|1046416",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 16,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

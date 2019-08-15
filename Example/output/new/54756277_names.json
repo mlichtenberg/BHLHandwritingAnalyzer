@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:46:43.8055763-05:00",
+    "language": "eng",
+    "total_words": 96,
+    "total_candidates": 18,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Salix nigra",
+      "name": "Salix nigra",
+      "odds": 636628904.4046553,
+      "odds_details": {
+        "Name": {
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "gra": 17.51902518572205
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "5": 0.3030356411856684
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "lix": 17.51902518572205
+          },
+          "spLen": {
+            "5": 0.6938227796325565
+          }
+        }
+      },
+      "start": 309,
+      "end": 320,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "cd805388ab7d1596b3fa25288d23333b",
+          "matchedName": "Salix nigra Marsh.",
+          "matchedCanonical": "Salix nigra",
+          "currentName": "Salix nigra Marsh.",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Malpighiales|Salicaceae|Salix|Salix nigra",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45842582|45848942|46034332|cd805388ab7d1596b3fa25288d23333b",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "cd805388ab7d1596b3fa25288d23333b",
+            "matchedName": "Salix nigra Marsh.",
+            "matchedCanonical": "Salix nigra",
+            "currentName": "Salix nigra Marsh.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Malpighiales|Salicaceae|Salix|Salix nigra",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45842582|45848942|46034332|cd805388ab7d1596b3fa25288d23333b",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "5372854",
+            "matchedName": "Salix nigra Marsh.",
+            "matchedCanonical": "Salix nigra",
+            "currentName": "Salix nigra Marsh.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Malpighiales|Salicaceae|Salix|Salix nigra",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|1414|6664|3039576|5372854",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "738783",
+            "matchedName": "Salix nigra",
+            "matchedCanonical": "Salix nigra",
+            "currentName": "Salix nigra",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Malpighiales|Salicaceae|Saliceae|Salix|Salix nigra",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|tribe|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008296|565281|429482|530183|509390|458856|738783",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 22,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

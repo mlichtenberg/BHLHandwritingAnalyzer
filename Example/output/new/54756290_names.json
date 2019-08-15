@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:42:58.6236923-05:00",
+    "language": "eng",
+    "total_words": 41,
+    "total_candidates": 13,
+    "total_names": 2
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Cryptantha tennis",
+      "name": "Cryptantha tennis",
+      "odds": 149139432.35484776,
+      "odds_details": {
+        "Name": {
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "tha": 28.781255662257653
+          },
+          "spLen": {
+            "6": 2.296153847821055
+          },
+          "spDict": {
+            "GreySpecies": 1.3629063353560105
+          },
+          "spEnd3": {
+            "nis": 295.3207102736003
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "10": 3.1988876638791726
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          }
+        }
+      },
+      "start": 153,
+      "end": 170,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "d8cdb6d49d72b7e4f2c9ea6cb3fe4e7c",
+          "matchedName": "Cryptantha tenuis (Eastw.) Payson",
+          "matchedCanonical": "Cryptantha tenuis",
+          "currentName": "Oreocarya tenuis Eastw.",
+          "isSynonym": true,
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Oreocarya|Oreocarya tenuis",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45856685|45856686|45920539|05aebbbaac8ae0e577a6710cfb24dbe3",
+          "editDistance": 1,
+          "stemEditDistance": 1,
+          "matchType": "FuzzyCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "d8cdb6d49d72b7e4f2c9ea6cb3fe4e7c",
+            "matchedName": "Cryptantha tenuis (Eastw.) Payson",
+            "matchedCanonical": "Cryptantha tenuis",
+            "currentName": "Oreocarya tenuis Eastw.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Oreocarya|Oreocarya tenuis",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45856685|45856686|45920539|05aebbbaac8ae0e577a6710cfb24dbe3",
+            "editDistance": 1,
+            "stemEditDistance": 1,
+            "matchType": "FuzzyCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "2926189",
+            "matchedName": "Cryptantha tenuis (Eastw.) Payson Payson (Eastw.)",
+            "matchedCanonical": "Cryptantha tenuis",
+            "currentName": "Oreocarya tenuis Eastw.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Oreocarya|Oreocarya tenuis",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|7226464|2498|7837925|4065510",
+            "editDistance": 1,
+            "stemEditDistance": 1,
+            "matchType": "FuzzyCanonicalMatch"
+          }
+        ],
+        "dataSourcesNum": 14,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    },
+    {
+      "type": "Uninomial",
+      "verbatim": "Cryptanthe",
+      "name": "Cryptanthe",
+      "odds": 2476.4183942503655,
+      "odds_details": {
+        "Name": {
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "10": 3.1988876638791726
+          },
+          "uniDict": {
+            "WhiteUninomial": 668.2256749411124
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "the": 13.347828712931086
+          }
+        }
+      },
+      "start": 214,
+      "end": 224,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 165,
+          "dataSourceTitle": "Tropicos - Missouri Botanical Garden",
+          "taxonId": "145262573",
+          "matchedName": "Cryptanthe Benth. \u0026 Hook. f.",
+          "matchedCanonical": "Cryptanthe",
+          "currentName": "Cryptanthe Benth. \u0026 Hook. f.",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "7295272",
+            "matchedName": "Cryptanthe Benth. \u0026 Hook.f.",
+            "matchedCanonical": "Cryptanthe",
+            "currentName": "Cryptanthe Benth. \u0026 Hook.f.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Cryptanthe",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "6|7707728|220|7226464|2498|7295272",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "5738678",
+            "matchedName": "Cryptanthe",
+            "matchedCanonical": "Cryptanthe",
+            "currentName": "Cryptanthe",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Boraginales|Boraginaceae|Cryptanthe",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|genus",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596112|5261925|147029|5738678",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 6,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

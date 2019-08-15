@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:49:19.6714214-05:00",
+    "language": "eng",
+    "total_words": 27,
+    "total_candidates": 6,
+    "total_names": 2
+  },
+  "names": [
+    {
+      "type": "Trinomial",
+      "verbatim": "Phloy longifolia nutt.",
+      "name": "Phloy longifolia nutt",
+      "odds": 254226.76886968905,
+      "odds_details": {
+        "Name": {
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "ispLen": {
+            "4": 0.05289125210455401
+          },
+          "ispDict": {
+            "WhiteSpecies": 738.3017756840007
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "5": 0.3030356411856684
+          },
+          "uniDict": {
+            "NotInDictionary": 0.01045703851117512
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "spLen": {
+            "10": 13.127639159348814
+          },
+          "spEnd3": {
+            "lia": 320.34788911034605
+          }
+        }
+      },
+      "start": 120,
+      "end": 142,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "matchType": "NoMatch"
+        },
+        "retries": 1
+      }
+    },
+    {
+      "type": "PossibleBinomial",
+      "verbatim": "Phlox langifolia",
+      "name": "Phlox langifolia",
+      "odds": 717304.5080784472,
+      "odds_details": {
+        "Name": {
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "lox": 5.005435767349157
+          },
+          "spLen": {
+            "10": 13.127639159348814
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "lia": 320.34788911034605
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "5": 0.3030356411856684
+          },
+          "uniDict": {
+            "GreyGenus": 1.4684399638974754
+          }
+        }
+      },
+      "start": 156,
+      "end": 172,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "6e33bd26bba0d246ff18604dc0ec732d",
+          "matchedName": "Phlox longifolia",
+          "matchedCanonical": "Phlox longifolia",
+          "currentName": "Phlox longifolia",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ericales|Polemoniaceae|Phlox|Phlox longifolia",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45844411|45848768|45986701|6e33bd26bba0d246ff18604dc0ec732d",
+          "editDistance": 1,
+          "stemEditDistance": 1,
+          "matchType": "FuzzyCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "6e33bd26bba0d246ff18604dc0ec732d",
+            "matchedName": "Phlox longifolia",
+            "matchedCanonical": "Phlox longifolia",
+            "currentName": "Phlox longifolia",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ericales|Polemoniaceae|Phlox|Phlox longifolia",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45844411|45848768|45986701|6e33bd26bba0d246ff18604dc0ec732d",
+            "editDistance": 1,
+            "stemEditDistance": 1,
+            "matchType": "FuzzyCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "2927725",
+            "matchedName": "Phlox longifolia Nutt.",
+            "matchedCanonical": "Phlox longifolia",
+            "currentName": "Phlox longifolia Nutt.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ericales|Polemoniaceae|Phlox|Phlox longifolia",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|1353|6648|2927698|2927725",
+            "editDistance": 1,
+            "stemEditDistance": 1,
+            "matchType": "FuzzyCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "387097",
+            "matchedName": "Phlox longifolia",
+            "matchedCanonical": "Phlox longifolia",
+            "currentName": "Phlox longifolia",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae||Ericales|Polemoniaceae|Phlox|Phlox longifolia",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|order|family|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|648892|814217|581720|387097",
+            "editDistance": 1,
+            "stemEditDistance": 1,
+            "matchType": "FuzzyCanonicalMatch"
+          }
+        ],
+        "dataSourcesNum": 19,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

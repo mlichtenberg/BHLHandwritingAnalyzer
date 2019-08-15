@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:40:57.017887-05:00",
+    "language": "eng",
+    "total_words": 24,
+    "total_candidates": 4,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Castilleja chromosa",
+      "name": "Castilleja chromosa",
+      "odds": 1882558848975.3994,
+      "odds_details": {
+        "Name": {
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "10": 3.1988876638791726
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "eja": 15.01630730204747
+          },
+          "spLen": {
+            "8": 6.931302160594205
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "osa": 573.1223953614785
+          }
+        }
+      },
+      "start": 78,
+      "end": 97,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "9fff3601a178b4325a2d3b0ec5174b57",
+          "matchedName": "Castilleja chromosa A. Nels.",
+          "matchedCanonical": "Castilleja chromosa",
+          "currentName": "Castilleja angustifolia var. dubia A. Nels.",
+          "isSynonym": true,
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Orobanchaceae|Castilleja||Castilleja angustifolia dubia",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|subgenus|infraspecies",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "9fff3601a178b4325a2d3b0ec5174b57",
+            "matchedName": "Castilleja chromosa A. Nels.",
+            "matchedCanonical": "Castilleja chromosa",
+            "currentName": "Castilleja angustifolia var. dubia A. Nels.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Orobanchaceae|Castilleja||Castilleja angustifolia dubia",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|subgenus|infraspecies",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "3738499",
+            "matchedName": "Castilleja chromosa A. Nels.",
+            "matchedCanonical": "Castilleja chromosa",
+            "currentName": "Castilleja parviflora Bong.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Orobanchaceae|Castilleja|Castilleja parviflora",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|408|6651|3170565|3170631",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "155892",
+            "matchedName": "Castilleja chromosa",
+            "matchedCanonical": "Castilleja chromosa",
+            "currentName": "Castilleja chromosa",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Lamiales|Core||Orobanchaceae|Pedicularideae|Castillejinae|Castilleja|Castilleja chromosa",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|no rank|no rank|family|tribe|subtribe|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596112|23736|5263556|5264061|23373|5144557|5144558|317400|155892",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 15,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

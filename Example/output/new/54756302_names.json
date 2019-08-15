@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:39:26.5406119-05:00",
+    "language": "eng",
+    "total_words": 14,
+    "total_candidates": 3,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Lesquerella rectipes",
+      "name": "Lesquerella rectipes",
+      "odds": 4503429018881.357,
+      "odds_details": {
+        "Name": {
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "lla": 414.19980974814274
+          },
+          "spLen": {
+            "8": 6.931302160594205
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "pes": 37.54076825511868
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "11": 4.235368726218518
+          }
+        }
+      },
+      "start": 54,
+      "end": 74,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "efccbb6a67b97b870603be9cdbc30339",
+          "matchedName": "Lesquerella rectipes Wooton \u0026 Standl.",
+          "matchedCanonical": "Lesquerella rectipes",
+          "currentName": "Physaria rectipes (Wooton \u0026 Standl.) O'Kane \u0026 Al-Shehbaz",
+          "isSynonym": true,
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Physaria|Physaria rectipes",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45846124|45846125|45975853|0400e4db323d8a6e475ca8ed377e2692",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "efccbb6a67b97b870603be9cdbc30339",
+            "matchedName": "Lesquerella rectipes Wooton \u0026 Standl.",
+            "matchedCanonical": "Lesquerella rectipes",
+            "currentName": "Physaria rectipes (Wooton \u0026 Standl.) O'Kane \u0026 Al-Shehbaz",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Physaria|Physaria rectipes",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45846124|45846125|45975853|0400e4db323d8a6e475ca8ed377e2692",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "5375863",
+            "matchedName": "Lesquerella rectipes Wooton \u0026 Standl.",
+            "matchedCanonical": "Lesquerella rectipes",
+            "currentName": "Physaria rectipes (Wooton \u0026 Standl.) O'Kane \u0026 Al-Shehbaz O'Kane \u0026 Al-Shehbaz (Wooton \u0026 Standl.)",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Physaria|Physaria rectipes",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|7225535|3112|8616804|3049187",
+            "matchType": "ExactCanonicalMatch"
+          }
+        ],
+        "dataSourcesNum": 15,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

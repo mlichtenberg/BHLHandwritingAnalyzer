@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:31:51.5072035-05:00",
+    "language": "eng",
+    "total_words": 57,
+    "total_candidates": 16,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Streptanthella longirostris",
+      "name": "Streptanthella longirostris",
+      "odds": 433531244446750.2,
+      "odds_details": {
+        "Name": {
+          "uniLen": {
+            "14": 15.01630730204747
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "lla": 414.19980974814274
+          },
+          "spEnd3": {
+            "ris": 335.3641964123935
+          },
+          "spLen": {
+            "12": 21.06718218536196
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "PriorOdds": {
+            "true": 0.1
+          }
+        }
+      },
+      "start": 304,
+      "end": 331,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "a5fa275ee5a37be0fba78f683084bbe4",
+          "matchedName": "Streptanthella longirostris (S. Watson) Rydb.",
+          "matchedCanonical": "Streptanthella longirostris",
+          "currentName": "Streptanthella longirostris (S. Watson) Rydb.",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Streptanthella|Streptanthella longirostris",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45846124|45846125|45975910|a5fa275ee5a37be0fba78f683084bbe4",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "a5fa275ee5a37be0fba78f683084bbe4",
+            "matchedName": "Streptanthella longirostris (S. Watson) Rydb.",
+            "matchedCanonical": "Streptanthella longirostris",
+            "currentName": "Streptanthella longirostris (S. Watson) Rydb.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Streptanthella|Streptanthella longirostris",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45846124|45846125|45975910|a5fa275ee5a37be0fba78f683084bbe4",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "3041931",
+            "matchedName": "Streptanthella longirostris (S. Watson) Rydb. Rydb. (S. Watson)",
+            "matchedCanonical": "Streptanthella longirostris",
+            "currentName": "Streptanthella longirostris (S. Watson) Rydb. Rydb. (S. Watson)",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Streptanthella|Streptanthella longirostris",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|7225535|3112|8240173|3041931",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "408206",
+            "matchedName": "Streptanthella longirostris",
+            "matchedCanonical": "Streptanthella longirostris",
+            "currentName": "Streptanthella longirostris",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Brassicales|Brassicaceae|Schizopetaleae|Streptanthella|Streptanthella longirostris",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|tribe|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008296|565277|8844|309271|717862|408183|408206",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 20,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

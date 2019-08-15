@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:33:51.5505068-05:00",
+    "language": "eng",
+    "total_words": 32,
+    "total_candidates": 6,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Uninomial",
+      "verbatim": "Cryptantha",
+      "name": "Cryptantha",
+      "odds": 161373.26563684782,
+      "odds_details": {
+        "Name": {
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "10": 3.1988876638791726
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "tha": 28.781255662257653
+          }
+        }
+      },
+      "start": 136,
+      "end": 146,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "45920401",
+          "matchedName": "Cryptantha",
+          "matchedCanonical": "Cryptantha",
+          "currentName": "Cryptantha",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Cryptantha",
+          "classificationRank": "kingdom|phylum|class|order|family|genus",
+          "classificationIDs": "45841433|45841434|45841435|45856685|45856686|45920401",
+          "matchType": "ExactMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "45920401",
+            "matchedName": "Cryptantha",
+            "matchedCanonical": "Cryptantha",
+            "currentName": "Cryptantha",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Cryptantha",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "45841433|45841434|45841435|45856685|45856686|45920401",
+            "matchType": "ExactMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "8057105",
+            "matchedName": "Cryptantha Lehm. ex Fisch. \u0026 C.A.Mey.",
+            "matchedCanonical": "Cryptantha",
+            "currentName": "Cryptantha Lehm. ex Fisch. \u0026 C.A.Mey.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Cryptantha",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "6|7707728|220|7226464|2498|8057105",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "375198",
+            "matchedName": "Cryptantha",
+            "matchedCanonical": "Cryptantha",
+            "currentName": "Cryptantha",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Boraginales|Boraginaceae|Cynoglossoideae|Cynoglosseae|Amsinckiinae|Cryptantha",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|subfamily|tribe|subtribe|genus",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596112|5261925|147029|6062534|6062557|6062558|375198",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 20,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

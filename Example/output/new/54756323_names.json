@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:32:59.9724773-05:00",
+    "language": "eng",
+    "total_words": 73,
+    "total_candidates": 18,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Gilia sinuata",
+      "name": "Gilia sinuata",
+      "odds": 193597055792.37643,
+      "odds_details": {
+        "Name": {
+          "spLen": {
+            "7": 4.425451988126818
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "ata": 1554.1878057619133
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "5": 0.3030356411856684
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "lia": 9.414986324299607
+          }
+        }
+      },
+      "start": 311,
+      "end": 324,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "abb8485f1b551cc3abb3c82bf42d04c9",
+          "matchedName": "Gilia sinuata Dougl. ex Benth.",
+          "matchedCanonical": "Gilia sinuata",
+          "currentName": "Gilia sinuata Dougl. ex Benth.",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ericales|Polemoniaceae|Gilia|Gilia sinuata",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45844411|45848768|45986690|abb8485f1b551cc3abb3c82bf42d04c9",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "abb8485f1b551cc3abb3c82bf42d04c9",
+            "matchedName": "Gilia sinuata Dougl. ex Benth.",
+            "matchedCanonical": "Gilia sinuata",
+            "currentName": "Gilia sinuata Dougl. ex Benth.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ericales|Polemoniaceae|Gilia|Gilia sinuata",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45844411|45848768|45986690|abb8485f1b551cc3abb3c82bf42d04c9",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "5341579",
+            "matchedName": "Gilia sinuata Dougl. ex Benth.",
+            "matchedCanonical": "Gilia sinuata",
+            "currentName": "Gilia sinuata Dougl. ex Benth.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Ericales|Polemoniaceae|Gilia|Gilia sinuata",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|1353|6648|2927566|5341579",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "112162",
+            "matchedName": "Gilia sinuata",
+            "matchedCanonical": "Gilia sinuata",
+            "currentName": "Gilia sinuata",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae||Ericales|Polemoniaceae|Gilia|Gilia sinuata",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|order|family|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|648892|814217|77367|112162",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 20,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

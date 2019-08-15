@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:45:17.287127-05:00",
+    "language": "eng",
+    "total_words": 26,
+    "total_candidates": 6,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Phacelia crenulata",
+      "name": "Phacelia crenulata",
+      "odds": 2135275035011.4126,
+      "odds_details": {
+        "Name": {
+          "spEnd3": {
+            "ata": 1554.1878057619133
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "8": 1.467152054157978
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "lia": 9.414986324299607
+          },
+          "spLen": {
+            "9": 10.081642477424332
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          }
+        }
+      },
+      "start": 62,
+      "end": 80,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "8387de9e3885dbb9ebb578cb4c4c6e0e",
+          "matchedName": "Phacelia crenulata Torr. ex S. Wats.",
+          "matchedCanonical": "Phacelia crenulata",
+          "currentName": "Phacelia crenulata Torr. ex S. Wats.",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Hydrophyllaceae|Phacelia|Phacelia crenulata",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45856685|45856691|45883236|8387de9e3885dbb9ebb578cb4c4c6e0e",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "8387de9e3885dbb9ebb578cb4c4c6e0e",
+            "matchedName": "Phacelia crenulata Torr. ex S. Wats.",
+            "matchedCanonical": "Phacelia crenulata",
+            "currentName": "Phacelia crenulata Torr. ex S. Wats.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Hydrophyllaceae|Phacelia|Phacelia crenulata",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45856685|45856691|45883236|8387de9e3885dbb9ebb578cb4c4c6e0e",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "8331855",
+            "matchedName": "Phacelia crenulata Torr.",
+            "matchedCanonical": "Phacelia crenulata",
+            "currentName": "Phacelia crenulata Torr.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Phacelia|Phacelia crenulata",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|7226464|2498|8988077|8331855",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "340402",
+            "matchedName": "Phacelia crenulata",
+            "matchedCanonical": "Phacelia crenulata",
+            "currentName": "Phacelia crenulata",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Boraginales|Boraginaceae|Phacelia|Phacelia crenulata",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|family|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596112|5261925|147029|476098|340402",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 19,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

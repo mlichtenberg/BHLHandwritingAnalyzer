@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:32:25.4211179-05:00",
+    "language": "eng",
+    "total_words": 52,
+    "total_candidates": 14,
+    "total_names": 2
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Eleva\r\ntim",
+      "name": "Eleva tim",
+      "odds": 252472.94305653736,
+      "odds_details": {
+        "Name": {
+          "uniLen": {
+            "5": 0.3030356411856684
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "eva": 5.005435767349157
+          },
+          "spLen": {
+            "3": 0.010530369777031888
+          },
+          "spDict": {
+            "GreySpecies": 1.3629063353560105
+          },
+          "PriorOdds": {
+            "true": 0.1
+          }
+        }
+      },
+      "start": 209,
+      "end": 219,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "46043770",
+          "matchedName": "Eleva",
+          "matchedCanonical": "Eleva",
+          "currentName": "Eleva",
+          "classificationPath": "Animalia|Arthropoda|Insecta|Orthoptera|Grylloidea|Gryllidae|Eleva",
+          "classificationRank": "kingdom|phylum|class|order|superfamily|family|genus",
+          "classificationIDs": "45841265|45841270|45841271|45841564|45849398|45849406|46043770",
+          "matchType": "ExactPartialMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "46043770",
+            "matchedName": "Eleva",
+            "matchedCanonical": "Eleva",
+            "currentName": "Eleva",
+            "classificationPath": "Animalia|Arthropoda|Insecta|Orthoptera|Grylloidea|Gryllidae|Eleva",
+            "classificationRank": "kingdom|phylum|class|order|superfamily|family|genus",
+            "classificationIDs": "45841265|45841270|45841271|45841564|45849398|45849406|46043770",
+            "matchType": "ExactPartialMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "1723769",
+            "matchedName": "Eleva Otte, 1988",
+            "matchedCanonical": "Eleva",
+            "currentName": "Eleva Otte, 1988",
+            "classificationPath": "Animalia|Arthropoda|Insecta|Orthoptera|Gryllidae|Eleva",
+            "classificationRank": "kingdom|phylum|class|order|family|genus",
+            "classificationIDs": "1|54|216|1458|5925|1723769",
+            "matchType": "ExactPartialMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "4184832",
+            "matchedName": "Eleva",
+            "matchedCanonical": "Eleva",
+            "currentName": "Eleva",
+            "classificationPath": "||Eukaryota|Opisthokonta|Holozoa|Metazoa|Eumetazoa|Bilateria|Protostomia|Ecdysozoa|Panarthropoda|Arthropoda|Mandibulata|Pancrustacea|Hexapoda|Insecta|Dicondylia|Pterygota|Neoptera|Orthopteroidea|Orthoptera|Ensifera|Grylloidea|Gryllidae|Eleva",
+            "classificationRank": "no rank|no rank|domain|no rank|no rank|kingdom|no rank|no rank|no rank|no rank|no rank|phylum|no rank|no rank|superclass|class|no rank|subclass|subclass|infraclass|order|suborder|superfamily|family|genus",
+            "classificationIDs": "805080|93302|304358|332573|5246131|691846|641038|117569|189832|611099|816442|632179|985907|985906|568991|1062253|983656|1048707|815350|815351|1095594|1095582|1051857|1095585|4184832",
+            "matchType": "ExactPartialMatch"
+          }
+        ],
+        "dataSourcesNum": 13,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    },
+    {
+      "type": "Binomial",
+      "verbatim": "Festuca octoflora",
+      "name": "Festuca octoflora",
+      "odds": 630603830370.1136,
+      "odds_details": {
+        "Name": {
+          "uniEnd3": {
+            "uca": 47.55163978981699
+          },
+          "spLen": {
+            "9": 10.081642477424332
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "ora": 160.17394455517302
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "7": 0.8324223452545503
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          }
+        }
+      },
+      "start": 235,
+      "end": 252,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "c4c9a7f05d6c6118a150703515d488f7",
+          "matchedName": "Festuca octoflora Walter",
+          "matchedCanonical": "Festuca octoflora",
+          "currentName": "Vulpia octoflora (Walter) Rydb.",
+          "isSynonym": true,
+          "classificationPath": "Plantae|Tracheophyta|Liliopsida|Poales|Poaceae|Vulpia|Vulpia octoflora",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45844426|45844436|45844442|46112824|a23220e4a0125b8a4a33bd26e85352af",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "c4c9a7f05d6c6118a150703515d488f7",
+            "matchedName": "Festuca octoflora Walter",
+            "matchedCanonical": "Festuca octoflora",
+            "currentName": "Vulpia octoflora (Walter) Rydb.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Liliopsida|Poales|Poaceae|Vulpia|Vulpia octoflora",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45844426|45844436|45844442|46112824|a23220e4a0125b8a4a33bd26e85352af",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "4113111",
+            "matchedName": "Festuca octoflora Walter",
+            "matchedCanonical": "Festuca octoflora",
+            "currentName": "Vulpia octoflora (Walter) Rydb. Rydb. (Walter)",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Liliopsida|Poales|Poaceae|Vulpia|Vulpia octoflora",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|196|1369|3073|2702722|5289597",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "33577",
+            "matchedName": "Festuca octoflora",
+            "matchedCanonical": "Festuca octoflora",
+            "currentName": "Festuca octoflora",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae|Liliopsida|Petrosaviidae||Poales|Poaceae||Pooideae|Poodae|Poeae|Poeae|Loliinae|Festuca|Vulpia|Festuca octoflora",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|class|no rank|subclass|order|family|no rank|subfamily|no rank|tribe|no rank|subtribe|genus|subgenus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|1058517|5308424|225270|921871|508090|17811|641464|5737322|415737|5759324|107346|105596|6022377|33577",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 15,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

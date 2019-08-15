@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:35:21.164004-05:00",
+    "language": "eng",
+    "total_words": 13,
+    "total_candidates": 4,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Physaria australis",
+      "name": "Physaria australis",
+      "odds": 1038933021172.9226,
+      "odds_details": {
+        "Name": {
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "ria": 18.35326448028024
+          },
+          "spLen": {
+            "9": 10.081642477424332
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "lis": 387.92127196955965
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "8": 1.467152054157978
+          }
+        }
+      },
+      "start": 55,
+      "end": 73,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "b3e69ced44239e64b4ea71adb79c18a0",
+          "matchedName": "Physaria australis (Payson) Rollins",
+          "matchedCanonical": "Physaria australis",
+          "currentName": "Physaria acutifolia Rydb.",
+          "isSynonym": true,
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Physaria|Physaria acutifolia",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45846124|45846125|45975853|216ed90d97ef563a895a9dd5fa335b82",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "b3e69ced44239e64b4ea71adb79c18a0",
+            "matchedName": "Physaria australis (Payson) Rollins",
+            "matchedCanonical": "Physaria australis",
+            "currentName": "Physaria acutifolia Rydb.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Physaria|Physaria acutifolia",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45846124|45846125|45975853|216ed90d97ef563a895a9dd5fa335b82",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "3049039",
+            "matchedName": "Physaria australis (Payson) Rollins Rollins (Payson)",
+            "matchedCanonical": "Physaria australis",
+            "currentName": "Physaria acutifolia Rydb.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Brassicales|Brassicaceae|Physaria|Physaria acutifolia",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|7225535|3112|8616804|3049037",
+            "matchType": "ExactCanonicalMatch"
+          }
+        ],
+        "dataSourcesNum": 13,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

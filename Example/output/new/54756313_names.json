@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:35:58.1906-05:00",
+    "language": "eng",
+    "total_words": 19,
+    "total_candidates": 5,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Cryptantha flava",
+      "name": "Cryptantha flava",
+      "odds": 11040568372.565931,
+      "odds_details": {
+        "Name": {
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "tha": 28.781255662257653
+          },
+          "spLen": {
+            "5": 0.6938227796325565
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "ava": 17.51902518572205
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "10": 3.1988876638791726
+          },
+          "uniDict": {
+            "WhiteGenus": 20194.430603370172
+          }
+        }
+      },
+      "start": 65,
+      "end": 81,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "0bbc49a2db6de16c8f4ecd8ce17d4c3a",
+          "matchedName": "Cryptantha flava (A. Nels.) Payson",
+          "matchedCanonical": "Cryptantha flava",
+          "currentName": "Oreocarya flava A. Nels.",
+          "isSynonym": true,
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Oreocarya|Oreocarya flava",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45856685|45856686|45920539|44605b4acdf9e90b1b11fa61647e1e23",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "0bbc49a2db6de16c8f4ecd8ce17d4c3a",
+            "matchedName": "Cryptantha flava (A. Nels.) Payson",
+            "matchedCanonical": "Cryptantha flava",
+            "currentName": "Oreocarya flava A. Nels.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Oreocarya|Oreocarya flava",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45856685|45856686|45920539|44605b4acdf9e90b1b11fa61647e1e23",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "2926314",
+            "matchedName": "Cryptantha flava (A. Nels.) Payson Payson (A. Nels.)",
+            "matchedCanonical": "Cryptantha flava",
+            "currentName": "Oreocarya flava A. Nels.",
+            "isSynonym": true,
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Boraginales|Boraginaceae|Oreocarya|Oreocarya flava",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|7226464|2498|7837925|2926315",
+            "matchType": "ExactCanonicalMatch"
+          }
+        ],
+        "dataSourcesNum": 16,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

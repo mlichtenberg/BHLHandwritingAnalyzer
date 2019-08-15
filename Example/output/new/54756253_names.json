@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:52:38.6769164-05:00",
+    "language": "eng",
+    "total_words": 71,
+    "total_candidates": 3,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Uninomial",
+      "verbatim": "Cyperaceae",
+      "name": "Cyperaceae",
+      "odds": 10215.225876282757,
+      "odds_details": {
+        "Name": {
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "10": 3.1988876638791726
+          },
+          "uniDict": {
+            "WhiteUninomial": 668.2256749411124
+          },
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "eae": 55.05979344084073
+          }
+        }
+      },
+      "start": 242,
+      "end": 252,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "45844450",
+          "matchedName": "Cyperaceae",
+          "matchedCanonical": "Cyperaceae",
+          "currentName": "Cyperaceae",
+          "classificationPath": "Plantae|Tracheophyta|Liliopsida|Poales|Cyperaceae",
+          "classificationRank": "kingdom|phylum|class|order|family",
+          "classificationIDs": "45841433|45841434|45844426|45844436|45844450",
+          "matchType": "ExactMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "45844450",
+            "matchedName": "Cyperaceae",
+            "matchedCanonical": "Cyperaceae",
+            "currentName": "Cyperaceae",
+            "classificationPath": "Plantae|Tracheophyta|Liliopsida|Poales|Cyperaceae",
+            "classificationRank": "kingdom|phylum|class|order|family",
+            "classificationIDs": "45841433|45841434|45844426|45844436|45844450",
+            "matchType": "ExactMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "7708",
+            "matchedName": "Cyperaceae",
+            "matchedCanonical": "Cyperaceae",
+            "currentName": "Cyperaceae",
+            "classificationPath": "Plantae|Tracheophyta|Liliopsida|Poales|Cyperaceae",
+            "classificationRank": "kingdom|phylum|class|order|family",
+            "classificationIDs": "6|7707728|196|1369|7708",
+            "matchType": "ExactMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "105574",
+            "matchedName": "Cyperaceae",
+            "matchedCanonical": "Cyperaceae",
+            "currentName": "Cyperaceae",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae|Liliopsida|Petrosaviidae||Poales|Cyperaceae",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|class|no rank|subclass|order|family",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|1058517|5308424|225270|921871|105574",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 23,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}

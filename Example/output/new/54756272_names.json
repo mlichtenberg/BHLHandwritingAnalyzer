@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "date": "2019-08-14T17:48:09.6330197-05:00",
+    "language": "eng",
+    "total_words": 38,
+    "total_candidates": 6,
+    "total_names": 1
+  },
+  "names": [
+    {
+      "type": "Binomial",
+      "verbatim": "Penstemon utahensis",
+      "name": "Penstemon utahensis",
+      "odds": 7708371.956539744,
+      "odds_details": {
+        "Name": {
+          "abbr": {
+            "false": 0.8679430877999654
+          },
+          "uniEnd3": {
+            "mon": 10.010871534698316
+          },
+          "spLen": {
+            "9": 10.081642477424332
+          },
+          "spDict": {
+            "WhiteSpecies": 5628.6125203841275
+          },
+          "spEnd3": {
+            "sis": 625.6794709186446
+          },
+          "PriorOdds": {
+            "true": 0.1
+          },
+          "uniLen": {
+            "9": 2.171091427809083
+          },
+          "uniDict": {
+            "GreyGenus": 1.4684399638974754
+          }
+        }
+      },
+      "start": 182,
+      "end": 201,
+      "annotation": "",
+      "verification": {
+        "BestResult": {
+          "dataSourceId": 1,
+          "dataSourceTitle": "Catalogue of Life",
+          "taxonId": "b93863be92a6f535004f562495d154a2",
+          "matchedName": "Penstemon utahensis Eastwood.",
+          "matchedCanonical": "Penstemon utahensis",
+          "currentName": "Penstemon utahensis Eastwood.",
+          "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Plantaginaceae|Penstemon|Penstemon utahensis",
+          "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+          "classificationIDs": "45841433|45841434|45841435|45841436|45846254|45973879|b93863be92a6f535004f562495d154a2",
+          "matchType": "ExactCanonicalMatch"
+        },
+        "preferredResults": [
+          {
+            "dataSourceId": 1,
+            "dataSourceTitle": "Catalogue of Life",
+            "taxonId": "b93863be92a6f535004f562495d154a2",
+            "matchedName": "Penstemon utahensis Eastwood.",
+            "matchedCanonical": "Penstemon utahensis",
+            "currentName": "Penstemon utahensis Eastwood.",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Plantaginaceae|Penstemon|Penstemon utahensis",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "45841433|45841434|45841435|45841436|45846254|45973879|b93863be92a6f535004f562495d154a2",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 11,
+            "dataSourceTitle": "GBIF Backbone Taxonomy",
+            "taxonId": "8195142",
+            "matchedName": "Penstemon utahensis A.Nelson",
+            "matchedCanonical": "Penstemon utahensis",
+            "currentName": "Penstemon utahensis A.Nelson",
+            "classificationPath": "Plantae|Tracheophyta|Magnoliopsida|Lamiales|Plantaginaceae|Penstemon|Penstemon utahensis",
+            "classificationRank": "kingdom|phylum|class|order|family|genus|species",
+            "classificationIDs": "6|7707728|220|408|2420|3171306|8195142",
+            "matchType": "ExactCanonicalMatch"
+          },
+          {
+            "dataSourceId": 179,
+            "dataSourceTitle": "Open Tree of Life Reference Taxonomy",
+            "taxonId": "471853",
+            "matchedName": "Penstemon utahensis",
+            "matchedCanonical": "Penstemon utahensis",
+            "currentName": "Penstemon utahensis",
+            "classificationPath": "||Eukaryota|Archaeplastida|Chloroplastida|Streptophyta|Embryophyta|Tracheophyta|Euphyllophyta|Spermatophyta|Magnoliophyta|Mesangiospermae||Gunneridae|Pentapetalae|||Lamiales|Core|Plantaginaceae|Cheloneae|Penstemon|Penstemon utahensis",
+            "classificationRank": "no rank|no rank|domain|kingdom|kingdom|phylum|no rank|phylum|no rank|no rank|phylum|no rank|no rank|no rank|no rank|subclass|no rank|order|no rank|family|tribe|genus|species",
+            "classificationIDs": "805080|93302|304358|5268475|361838|916750|56610|10210|1007992|10218|99252|5298374|431495|853757|5316182|1008294|596112|23736|5263556|1041309|272511|759750|471853",
+            "matchType": "ExactMatch"
+          }
+        ],
+        "dataSourcesNum": 20,
+        "dataSourceQuality": "HasCuratedSources",
+        "retries": 1
+      }
+    }
+  ]
+}
