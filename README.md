@@ -2,11 +2,11 @@
 ## Overview
 This is a proof of concept intended to show how Microsoft Azure Cognitive Services, specifically the Computer Vision service, can be used to produce OCR text of handwriting.  It also illustrates how this OCR output is good enough for use in identifying scientific names mentioned in the text.  For extracting the scientific names from the text, the gnfinder command-line tool from the Global Names project is used.
 
-More information about the Computer Vision service is available at https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/.  As of August 2019, the free tier of this Azure service allows it to be called 5000 times per month.
+More information about the Computer Vision service is available at https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/.  As of July 2022, the free tier of this Azure service allows it to be called 5000 times per month.
 
 More information about the gnfinder tool is available at https://github.com/gnames/gnfinder.
 
-The BHLHandwritingAnalyzer tool is written in C# and utilizes .NET Core 2.1 (free, open-source, and cross-platform).  It can be compiled to run on Windows, OSX, or Linux.  The gnfinder CLI can also be run on Windows, OSX, or Linux.
+The BHLHandwritingAnalyzer tool is written in C# and utilizes .NET 6.0 (free, open-source, and cross-platform).  It can be compiled to run on Windows, OSX, or Linux.  The gnfinder CLI can also be run on Windows, OSX, or Linux.
 
 ## Using the tool
 
@@ -31,7 +31,7 @@ More information about the BHL API is available at https://www.biodiversitylibra
 ## Setting Up The Tool
 To set up your environment to run this tool, do the following:
 
-1. Install .NET Core 2.1 or later.
+1. Install .NET 6.0 or later.
 2. Download the code from this repository.
 3. Get a BHL API key at https://www.biodiversitylibrary.org/getapikey.aspx.  
 4. Create an Azure Cognitive Services subscription and get the associated Azure key and endpoint.  See https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account for more information.

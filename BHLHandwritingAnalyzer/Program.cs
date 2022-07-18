@@ -8,6 +8,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -39,7 +40,7 @@ namespace BHLHandwritingAnalyzer
                         GetOriginalNames(pageID);
 
                         // Get new page text from Azure service (perform OCR on the page image)
-                        Task.Delay(10000).Wait();    // Throttle the API requests sent to Azure
+                        Task.Delay(2000).Wait();    // Throttle the API requests sent to Azure
                         GetNewText(pageID).Wait();
 
                         // Use the gnfinder tool to extract scientific names from the new page text
@@ -151,67 +152,45 @@ namespace BHLHandwritingAnalyzer
         /// <returns>Text of the page</returns>
         static public async Task GetNewText(int pageID)
         {
-            // Invoke the Azure Computer Vision service to extract the text of the page.
-            // Assume this is a handwritten page.
+            // Authenticate with the Azure service
+            ComputerVisionClient client = new ComputerVisionClient(new ApiKeyServiceClientCredentials(Config.SubscriptionKey))
+              { Endpoint = Config.Endpoint };
+
+            // Read text from URL
             string imageUrl = string.Format(Config.BhlPageImageUrl, pageID.ToString());
-            TextOperationResult result = await NewTextAsync(
-                async (ComputerVisionClient client) => await client.RecognizeTextAsync(imageUrl, TextRecognitionMode.Handwritten),
-                headers => headers.OperationLocation);
+            var textHeaders = await client.ReadAsync(imageUrl);
 
-            // Write the new text to a file
-            if (result.Status == TextOperationStatusCodes.Succeeded)
+            // After the request, get the operation location (operation ID)
+            string operationLocation = textHeaders.OperationLocation;
+            Thread.Sleep(2000);
+
+            // Retrieve the URI where the extracted text will be stored from the Operation-Location header.
+            // We only need the ID and not the full URL
+            const int numberOfCharsInOperationId = 36;
+            string operationId = operationLocation.Substring(operationLocation.Length - numberOfCharsInOperationId);
+
+            // Extract the text
+            ReadOperationResult results;
+            do
             {
-                StringBuilder sb = new StringBuilder();
-                if (result.RecognitionResult.Lines != null)
-                {
-                    foreach (var line in result.RecognitionResult.Lines) sb.AppendLine(line.Text);
-                }
-
-                File.WriteAllText(
-                    string.Format("{0}\\{1}.txt", Config.NewFolder, pageID.ToString()),
-                    sb.ToString());
+                results = await client.GetReadResultAsync(Guid.Parse(operationId));
             }
-        }
+            while ((results.Status == OperationStatusCodes.Running || results.Status == OperationStatusCodes.NotStarted));
 
-        /// <summary>
-        /// Use the Azure Computer Vision API to perform OCR analysis of the specified BHL page image.
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="GetHeadersAsyncFunc"></param>
-        /// <param name="GetOperationUrlFunc"></param>
-        /// <returns></returns>
-        static private async Task<TextOperationResult> NewTextAsync<T>(Func<ComputerVisionClient, Task<T>> GetHeadersAsyncFunc, Func<T, string> GetOperationUrlFunc) where T : new()
-        {
-            var result = default(TextOperationResult);
-
-            // Create Cognitive Services Computer Vision API Service client.
-            ApiKeyServiceClientCredentials credentials = new ApiKeyServiceClientCredentials(Config.SubscriptionKey);
-            using (var client = new ComputerVisionClient(credentials) { Endpoint = Config.Endpoint })
+            // Save the found text
+            var textUrlFileResults = results.AnalyzeResult.ReadResults;
+            StringBuilder sb = new StringBuilder();
+            foreach (ReadResult page in textUrlFileResults)
             {
-                try
+                foreach (Line line in page.Lines)
                 {
-                    T recognizeHeaders = await GetHeadersAsyncFunc(client);
-                    string operationUrl = GetOperationUrlFunc(recognizeHeaders);
-                    string operationId = operationUrl.Substring(operationUrl.LastIndexOf('/') + 1);
-
-                    result = await client.GetTextOperationResultAsync(operationId);
-
-                    // Retry a few times in the case of failure
-                    for (int attempt = 1; attempt <= Config.MaxRetryTimes; attempt++)
-                    {
-                        if (result.Status == TextOperationStatusCodes.Failed ||
-                            result.Status == TextOperationStatusCodes.Succeeded) break;
-
-                        await Task.Delay(Config.QueryWaitTimeInSeconds);  // Wait a bit before retrying
-                        result = await client.GetTextOperationResultAsync(operationId);
-                    }
+                    sb.AppendLine(line.Text);
                 }
-                catch (Exception ex)
-                {
-                    result = new TextOperationResult() { Status = TextOperationStatusCodes.Failed };
-                }
-                return result;
             }
+
+            File.WriteAllText(
+                string.Format("{0}\\{1}.txt", Config.NewFolder, pageID.ToString()),
+                sb.ToString());
         }
 
         /// <summary>
@@ -225,7 +204,7 @@ namespace BHLHandwritingAnalyzer
             Process process = new Process();
 
             string inputFile = string.Format("{0}\\{1}.txt", Config.NewFolder, pageID.ToString());
-            string gnfinderCommand = string.Format($"/C gnfinder find {inputFile} -c -l eng");
+            string gnfinderCommand = string.Format($"/C gnfinder -v -f pretty {inputFile}");
 
             process.StartInfo = new ProcessStartInfo()
             {
@@ -269,13 +248,17 @@ namespace BHLHandwritingAnalyzer
                         var json = File.ReadAllText(nameFile);
                         var jobj = JObject.Parse(json);
 
-                        int totalNames = (int)jobj["metadata"]["total_names"];
+                        int totalNames = (int)(jobj["metadata"]["totalNames"] ?? 0);
                         if (totalNames > 0)
                         {
                             foreach (var name in jobj["names"])
                             {
-                                string nameValue = (string)name["name"];
-                                outputLines.Add(string.Format("{0}\t{1}", pageID.ToString(), nameValue));
+                                var best = name["verification"]["bestResult"];
+                                if (best != null)
+                                {
+                                    string nameValue = (string)best["matchedCanonicalFull"];
+                                    if (nameValue != null) outputLines.Add(string.Format("{0}\t{1}", pageID.ToString(), nameValue));
+                                }
                             }
                         }
                     }
